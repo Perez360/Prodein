@@ -10,8 +10,8 @@ import java.util.Map;
 import java.util.Objects;
 
 public class DIFactory implements DI {
-    private final java.util.Map<String, Object> taggedBindings = new java.util.HashMap<>();
-    private final java.util.List<Object> unTaggedBindings = new java.util.ArrayList<>();
+    private final Map<String, Object> taggedBindings = new HashMap<>();
+    private final List<Object> unTaggedBindings = new ArrayList<>();
 
     @Override
     public void bindSingleton(String tag, Object object) {
