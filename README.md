@@ -1,4 +1,4 @@
-# Prodein-simple-dependency-injection-library
+# Prodein
 
 Prodein is a lightweight and easy-to-use dependency injection library for Java applications.
 It simplifies the management of object dependencies and promotes a clean and modular code structure.
